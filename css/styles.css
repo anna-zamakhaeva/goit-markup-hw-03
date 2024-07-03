@@ -1,0 +1,114 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header-logo .logo-part {
+    color: #2e2f42;
+}
+.header-nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.header-contacts {
+    font-style: normal;
+}
+.header-contacts-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.header-nav-link:hover, .header-contacts-link:hover,
+.header-nav-link:focus, .header-contacts-link:focus {
+    color: #404bbf;
+}
+.section-hero {
+    background-color: #2e2f42;
+}
+.section-hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.02em;
+    color: #fff;
+    text-align: center;
+    line-height: 1.07;
+}
+.section-hero-button {
+    background-color: #4d5ae5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+.section-hero-button:hover,
+.section-hero-button:focus {
+    background-color: #404BBF;
+}
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+}
+.section-advantages-item-title,
+.section-team-item-title, 
+.section-portfolio-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+.section-advantages-item-text,
+.section-team-item-text,
+.section-portfolio-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.section-team {
+    background-color: #f4f4fd;
+}
+.section-team-item {
+    background-color: #fff;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+.footer-logo .logo-part {
+    color: #f4f4fd;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
