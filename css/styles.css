@@ -3,12 +3,27 @@ body {
     color: #434455;
     background-color: #FFFFFF;
 }
-ul {
+
+ul, ol {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
+
 a {
     text-decoration: none;
 }
+
+h1, h2, h3, h4, p {
+    margin: 0;
+} 
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -18,6 +33,64 @@ a {
     text-transform: uppercase;
     color: #4d5ae5;
 }
+
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.section-subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42
+}
+
+.section-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+/* HEADER */
+
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 .header-logo .logo-part {
     color: #2e2f42;
 }
@@ -41,9 +114,21 @@ a {
 .header-nav-link:focus, .header-contacts-link:focus {
     color: #404bbf;
 }
+
+
+/* -- */
+
+/* HERO */
 .section-hero {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin: 0 auto;
 }
+
+.container-hero {    
+}
+
 .section-hero-title {
     font-weight: 700;
     font-size: 56px;
@@ -51,7 +136,11 @@ a {
     color: #fff;
     text-align: center;
     line-height: 1.07;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
+
 .section-hero-button {
     background-color: #4d5ae5;
     font-weight: 500;
@@ -61,43 +150,64 @@ a {
     color: #fff;
     cursor: pointer;
     text-align: center;
+    display: block;
+    margin: 0 auto;
 }
+
 .section-hero-button:hover,
 .section-hero-button:focus {
     background-color: #404BBF;
 }
-.section-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    text-align: center;
-    text-transform: capitalize;
+
+/* -- */
+
+/* ADVANTAGES */
+
+.section-advantages {
+
 }
-.section-advantages-item-title,
-.section-team-item-title, 
-.section-portfolio-item-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42
+.advantages-subtitle {
+    margin-bottom: 8px;
 }
-.section-advantages-item-text,
-.section-team-item-text,
-.section-portfolio-item-text {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+
+.advantages-item-text {
 }
+
+/* -- */
+
+/* TEAM */
+
 .section-team {
     background-color: #f4f4fd;
 }
+
 .section-team-item {
     background-color: #fff;
 }
+
+.team-subtitle {
+    margin-bottom: 8px;
+}
+
+.team-item-text {
+
+}
+
+/* -- */
+
+/* PORTFOLIO */
+
+.portfolio-subtitle {
+    margin-bottom: 8px;
+}
+
+.portfolio-item-text {}
+
+/* -- */
+
+
+
+/* FOOTER */
 
 .footer {
     background-color: #2e2f42;
@@ -112,3 +222,5 @@ a {
     letter-spacing: 0.02em;
     color: #f4f4fd;
 }
+
+/* -- */
