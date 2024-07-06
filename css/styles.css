@@ -188,6 +188,7 @@ img {
     display: block;
     margin: 0 auto;
     padding: 16px 32px;
+    min-width: 169px;
     border: none;
     border-radius: 4px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -240,11 +241,16 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-subtitle {
     margin-bottom: 8px;
+    text-align: center;
+}
+
+.team-item-text {
+    text-align: center;
 }
 
 /* -- */
